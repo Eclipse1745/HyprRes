@@ -9,8 +9,10 @@ HyprRes is a Shell script for changing the resolution of the Hyprland window man
 
 ## Requirements
 
-- Hyprland window manager
-- Shell environment
+- fzf
+- wlr-randr
+- jq
+- hyprctl
 
 ## Installation
 
@@ -28,26 +30,19 @@ HyprRes is a Shell script for changing the resolution of the Hyprland window man
 
 1. Ensure you have the required permissions to execute the script:
     ```sh
-    chmod +x hyprres.sh
+    chmod +x hyprres
     ```
 
 2. Run the script to change the resolution:
     ```sh
-    ./hyprres.sh <desired-resolution>
+    ./hyprres
     ```
 
-    Replace `<desired-resolution>` with the resolution you want to set, for example:
-    ```sh
-    ./hyprres.sh 1920x1080
-    ```
+   
 
 ## Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
