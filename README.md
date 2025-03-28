@@ -30,12 +30,12 @@ HyprRes is a Shell script for changing the resolution of the Hyprland window man
 
 1. Ensure you have the required permissions to execute the script:
     ```sh
-    chmod +x hyprres
+    chmod +x hypr-res
     ```
 
 2. Run the script to change the resolution:
     ```sh
-    ./hyprres
+    ./hypr-res
     ```
 
    
