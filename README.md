@@ -1,52 +1,54 @@
-HyprRes
+# HyprRes
 
-HyprRes is a Bash script designed to simplify the process of changing display resolutions in the Hyprland window manager. By providing an interactive interface, it eliminates the need to manually edit configuration files, streamlining the user experience.
-Features
+HyprRes is a Shell script for changing the resolution of the Hyprland window manager.
 
-Features
+## Features
 
- Interactive Selection: Utilize fzf for a user-friendly selection of monitors, resolutions, and refresh rates.
+- Change resolutions easily
+- Simple to use and configure
 
- Automatic Configuration: Updates the Hyprland configuration file automatically based on user selections.
+## Requirements
 
- Immediate Application: Applies the new settings without requiring a manual restart of Hyprland.
+- Hyprland window manager
+- Shell environment
 
-Dependencies
+## Installation
 
- Ensure the following packages are installed on your system:
-
- fzf: A command-line fuzzy finder for interactive selections.
-
- hyprctl: A command-line utility to interact with the Hyprland compositor.
-
- Installation
-
-Clone the Repository:
-
+1. Clone the repository:
+    ```sh
     git clone https://github.com/Eclipse1745/HyprRes.git
+    ```
 
-Navigate to the Directory:
-
+2. Navigate to the cloned directory:
+    ```sh
     cd HyprRes
+    ```
 
-Make the Script Executable:
+## Usage
 
-    chmod +x hypr-res
+1. Ensure you have the required permissions to execute the script:
+    ```sh
+    chmod +x hyprres.sh
+    ```
 
-Run the Script:
+2. Run the script to change the resolution:
+    ```sh
+    ./hyprres.sh <desired-resolution>
+    ```
 
-    hypr-res
+    Replace `<desired-resolution>` with the resolution you want to set, for example:
+    ```sh
+    ./hyprres.sh 1920x1080
+    ```
 
-Follow the Prompts:
+## Contributing
 
- Monitor Selection: Choose the desired monitor from the list.
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
- Resolution Selection: Pick the preferred resolution for the selected monitor.
+## License
 
- Refresh Rate Selection: Select an appropriate refresh rate for the chosen resolution.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
- Apply Settings: The script will update the Hyprland configuration and apply the new settings immediately.
+## Contact
 
-
-
-Note: Always ensure you have backups of your configuration files before making changes. 
+For any questions or suggestions, please open an issue or contact the repository owner.
