@@ -1,0 +1,2 @@
+# HyprRes
+Hyprland Resolution Changer
